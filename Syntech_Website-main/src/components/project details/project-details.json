@@ -1,0 +1,217 @@
+{
+  "CAVE2025": {
+    "title": "Project NEXUS @ CAVE 2025 ",
+    "organizedBy": "UTP SYNTECH Organization",
+    "date": "28 May 2025",
+    "venue": "Chancellor Foyer, UTP",
+    "description": "Returning for CaVe 2025, Project NEXUS showcased youth-driven innovation with three sub-projects addressing environmental challenges through smart tech and community engagement, continuing its mission to empower youth and promote sustainable development.",
+    "banner": "/project1_pics/ProjectNexusBanner.png",
+    "poster": "/project1_pics/ProjectNexusPoster.jpg",
+    "pictures": [
+      "/project1_pics/CAVE25booth1.jpg",
+      "/project1_pics/CAVE25booth2.jpg",
+      "/project1_pics/CAVE25booth3.jpg"
+    ],
+    "body1": {
+      "title": "Smart Environmental Tracking and Intelligent Notification for Efficient Litter (SENTINEL)",
+      "desc": "A smart waste monitoring system using IoT sensors and GPS to track bin levels, send real-time alerts, and ensure timely collection, reducing litter and promoting cleaner, smarter waste management.",
+      "header": "Innovative Solution",
+      "desc2": "",
+      "bullet_title": [
+        "Seamless Connectivity",
+        "Enhanced Functionality",
+        "User-Centered Design"
+      ],
+      "bullet_desc": [
+        "Transitioned from Arduino Uno R3 to ESP32 for Wi-Fi-enabled communication",
+        "Integrated a Bluetooth module and ESP32 camera for real-time wireless data transmission and monitoring.",
+        "Simplified interfacing and improved overall user experience through fully wireless operation."
+      ],
+      "poster": "/project1_pics/CAVE25Poster1.png"
+    },
+    "body2": {
+      "title": "ReEarth",
+      "desc": "A mobile platform that lets users buy, sell, or give away recyclables, with an intuitive marketplace and AI-powered tips to make sustainable practices simple and engaging.",
+      "header": "Innovative Solution",
+      "desc2": "",
+      "bullet_title": [
+        "AI-Powered Recycling Guidance",
+        "Eco-Education & Engagement",
+        "Sustainability & SDG Impact"
+      ],
+      "bullet_desc": [
+        "An intelligent chatbot that gives real-time recommendations, helps repurpose materials, and supports proper waste handling.",
+        "Encourages informed, eco-conscious choices while fostering active participation in sustainable practices.",
+        "Promotes waste reduction and environmental responsibility, empowering individuals to contribute to global green goals."
+      ],
+      "poster": "/project1_pics/CAVE25Poster2.png"
+    },
+    "body3": {
+      "title": "MOTOGP 25",
+      "desc": "An interactive racing simulation using motion tracking to translate rider movements into real-time gameplay, delivering speed, precision, and an immersive racing experience.",
+      "header": "Innovative Solution",
+      "desc2": "",
+      "bullet_title": [
+        "Motion Based Controls",
+        "Immersive Gameplay",
+        "Interactive Experience"
+      ],
+      "bullet_desc": [
+        "Transforms natural body movements into real-time racing actions.",
+        "Delivers speed, precision, and realism without traditional controllers.",
+        "Engages users through hands-on racing that blends technology with adrenaline."
+      ],
+      "poster": "/project1_pics/CAVE25Poster3.png"
+    }
+  },
+  "CAVE2024": {
+    "title": "Project HARMONY @ CAVE 2024 ",
+    "organizedBy": "UTP SYNTECH Organization",
+    "date": "May 2024",
+    "venue": "Chancellor Foyer, UTP",
+    "description": "Project HARMONY was a collaborative showcase by our club during CAVE 2024, aimed at promoting innovation, inclusivity, and sustainable development through technology and creativity. The initiative featured six unique sub-projects, each designed to address real-world challenges while empowering youth through education, awareness, and digital solutions.",
+    "banner": "/project1_pics/ProjectHarmonyBanner.png",
+    "poster": "/project1_pics/ProjectHarmonyPoster.jpg",
+    "pictures": [
+      "/project1_pics/CAVEbooth.png",
+      "/project1_pics/CAVEbooth2.png",
+      "/project1_pics/CAVEbooth3.jpg",
+      "/project1_pics/CAVEbooth4.png"
+    ],
+    "body1": {
+      "title": "CLEANFLO Project",
+      "desc": "The Cleanflo Project, part of Project HARMONY @ CAVE 2024, is a tech-driven initiative aimed at transforming how we manage indoor air quality and energy consumption in households. It directly addresses SDG 7 – Affordable and Clean Energy, by promoting smarter, more efficient air conditioning systems that reduce costs and improve health outcomes",
+      "header": "Innovative Solution",
+      "desc2": "CLEANFLO uses Light Dependent Resistors (LDRs) to detect the cleanliness of AC filters:",
+      "bullet_title": [
+        "Filter Cleanliness Detection",
+        "Energy Monitoring",
+        "Mobile App Integration "
+      ],
+      "bullet_desc": [
+        "LDR sensors measure light passing through AC filters, triggering red/green LED alerts for dirty or clean filters.",
+        "A second LDR tracks energy consumption, giving users detailed usage analytics.",
+        "Sends filter cleaning alerts, displays daily energy reports, and provides maintenance contact info."
+      ],
+      "poster": "/project1_pics/CAVE24Poster1.jpg"
+    },
+    "body2": {
+      "title": "EPISTEMEMO Project",
+      "desc": "Epistememo is a next-generation note-taking application developed under Project HARMONY @ CAVE 2024, designed to support Sustainable Development Goal 4: Quality Education. This project addresses the challenges students face in managing digital notes and capturing key information during lectures, offering a personalized and intelligent learning experience.",
+      "header": "Innovative Solution",
+      "desc2": "Epistememo tackles common student challenges with a suite of smart features:",
+      "bullet_title": [
+        "Smart Note Structuring",
+        "Dynamic Knowledge & Flashcards ",
+        "Progress Tracking"
+      ],
+      "bullet_desc": [
+        "Automatically detects keywords, acronyms, and definitions to organize notes into a meaningful format.",
+        "Provides contextual insights (functions, pros/cons, origins) and instantly generates flashcards to reinforce learning.",
+        "Tracks study activity by tags and flashcard usage, giving learners clear insights into their focus and progress."
+      ],
+      "poster": "/project1_pics/CAVE24Poster2.jpg"
+    },
+    "body3": {
+      "title": "THE HEEJAU ADVOCATES ",
+      "desc": "The Heejau Advocates is a youth-led initiative under Project HARMONY @ CAVE 2024, dedicated to raising awareness and promoting education around climate change. This project supports Sustainable Development Goal 13: Climate Action, with a strong focus on Target 13.3, which emphasizes the importance of education in building the knowledge and capacity needed to effectively address climate challenges.",
+      "header": "Innovative Solution",
+      "desc2": "",
+      "bullet_title": ["Website Development", "Educational Website"],
+      "bullet_desc": [
+        "Educate the youth by using HTML,CSS and JavaScript to develop an educational  website.",
+        "Consist of short courses module about climate change awareness, which embodies several user-friendly features."
+      ],
+      "poster": "/project1_pics/CAVE24Poster3.png"
+    },
+    "body4": {
+      "title": "WildAR – Augmented Reality for Wildlife Awareness",
+      "desc": "W1ldAR is an innovative project under Project HARMONY @ CAVE 2024, designed to support Sustainable Development Goal 15: Life on Land, specifically Target 15.5, which calls for urgent action to reduce habitat degradation, halt biodiversity loss, and protect endangered species.",
+      "header": "Innovative Solution",
+      "desc2": "The W1ldAR app combines technology and education to create a unique conservation tool:",
+      "bullet_title": [
+        "Immersive AR Experiences ",
+        "Education Through Play ",
+        "Community & Awareness"
+      ],
+      "bullet_desc": [
+        "Insert lifelike 3D models of local animals into photos for engaging, interactive learning.",
+        "Access animal profiles with facts, habitats, and conservation status, enhanced with quizzes and challenges.",
+        "Share creations, join campaigns, and collaborate to promote wildlife conservation efforts."
+      ],
+      "poster": "/project1_pics/CAVE24Poster4.jpg"
+    }
+  },
+
+  "NexTech2024": {
+    "title": "NexTech Conference And Expo 2024",
+    "organizedBy": "Agents of Tech @ Taylor's University",
+    "date": "27–28 April 2024",
+    "venue": "Taylor's University Lakeside Campus",
+    "description": "SYNTECH participated in NexTech 2024, a two-day tech event that brought together future innovators, students, and industry leaders. Our members showcased projects, attended keynotes, and represented the club in an event celebrating the next generation of technology.",
+    "banner": "/project2_pics/NexTechTitle.jpg",
+    "poster": "/project2_pics/NexTechGP.jpg",
+    "pictures": [
+      "/project2_pics/NexTechGP.jpg",
+      "/project2_pics/NexTech2.jpg",
+      "/project2_pics/NexTech3.jpg",
+      "/project2_pics/NexTech4.jpg"
+    ]
+  },
+
+  "ImagineHack2024": {
+    "title": "ImagineHack 2024",
+    "organizedBy": "Agents of Tech @ Taylor’s University",
+    "projectBy": "SYNTECH team - “Can’t Imagine”",
+    "date": "07–09 June 2024",
+    "venue": "Taylor's University Lakeside Campus",
+    "description": "Pigeon is an AI-powered idea validation system developed by our SYNTECH team, Can’tImagine, during ImagineHack 2024. The project addresses a common problem faced by early-stage startups: validating and refining business ideas before presenting them to venture capitalists or investors.Built using Retrieval-Augmented Generation (RAG), Pigeon enhances idea evaluation by retrieving relevant context using vector embeddings and feeding it into a large language model, resulting in more accurate, insightful, and localized feedback for startup founders.",
+    "banner": "/project3_pics/ImagineHackBanner.png",
+    "poster": "/project3_pics/ImagineHack.png",
+    "solutionName": "Pigeon",
+    "slide": "/project3_pics/PigeonSlide.png",
+    "event": "ImagineHack 2024",
+    "presentedBy": "Can'tImagine",
+    "features": [
+      "Idea Kitchen – Ask, analyze, and refine startup ideas",
+      "Elevator Pitch – Generate AI-powered pitch decks",
+      "Wide Knowledge Base – Pulls data from external sources for better context",
+      "Competitor Analysis – Evaluate idea feasibility and market competition"
+    ],
+    "logo": "project details/pigeon-logo.png",
+    "mockup": "project details/pigeon-mockup.png",
+    "techStack": [
+      { "name": "Streamlit", "icon": "/project3_pics/streamlit-logo.png" },
+      { "name": "Python", "icon": "/project3_pics/python-logo.png" },
+      { "name": "OpenAI API", "icon": "/project3_pics/openai-logo.png" },
+      { "name": "GCP", "icon": "/project3_pics/googlecloud-logo.png" },
+      { "name": "Firebase", "icon": "/project3_pics/firebase-logo.png" }
+    ],
+    "pictures": [
+      "/project3_pics/ImagineHack.png",
+      "/project3_pics/ImagineHack2.jpg",
+      "/project3_pics/ImagineHack3.jpg",
+      "/project3_pics/ImagineHack4.png",
+      "/project3_pics/ImagineHack5.png"
+    ]
+  },
+
+  "MakerFair2025": {
+    "title": "PETROBOTS Hackathon 2025",
+    "organizedBy": "UTP PETROBOTS",
+    "projectBy": "SYNTECH team - “Can’t Imagine”",
+    "date": "07–09 June 2024",
+    "venue": "Universiti Teknologi Petronas",
+    "description": "PyroSense AI is a compact, AI-powered system designed to tackle urban waste issues by enhancing real-time waste monitoring and optimizing collection efficiency. The project introduces SENTINEL, a small device that tracks bin status and location, sending live updates to a central system to reduce waste overflow and environmental hazards.",
+    "banner": "/project4_pics/MakerFairBanner.jpg",
+    "poster": "/project4_pics/MakerFairRobot.jpg",
+    "runnerupPhoto": "/project4_pics/pyrosense-runnerup.jpg",
+    "endPhoto": "/project4_pics/pyrosense2.png",
+    "pictures": [
+      "/project4_pics/makerfair2.jpg",
+      "/project4_pics/makerfair3.jpg",
+      "/project4_pics/makerfair4.jpg",
+      "/project4_pics/makerfair5.jpg"
+    ]
+  }
+}
