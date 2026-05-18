@@ -13,6 +13,7 @@ import logistics from "../assets/org_chart/logistics.png";
 import medpro from "../assets/org_chart/medpro.png";
 import technical from "../assets/org_chart/technical.png";
 import advisor from "../assets/org_chart/advisor.png";
+import public_relations from "../assets/org_chart/public_relations.png";
 
 const OrgSlider = () => {
   const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
@@ -45,36 +46,36 @@ const OrgSlider = () => {
       id: 1,
       title: "President",
       image: president,
-      email: { "Low Ren Jing": "ren_22011246@utp.edu.my" },
+      email: { "Tham Qi Lien": "qi_24005432@utp.edu.my" },
     },
     {
       id: 2,
       title: "Vice President",
       image: vice_president,
-      email: { Adrian: "mohd_22011425@utp.edu.my" },
+      email: { "Lewin Khoo Zhen Xiong" : "lewin_24004552@utp.edu.my" },
     },
     {
       id: 3,
       title: "Secretary",
       image: secretary,
       email: {
-        "Chan Li Kai": "chan_22010900@utp.edu.my",
-        Umairah: "umairah_22011792@utp.edu.my",
+        "Ahmad Ammir Harees": "ahmad_24005785@utp.edu.my",
+        "Qurratu": "qurratu_24006080@utp.edu.my",
       },
     },
     {
       id: 4,
       title: "Treasurer",
       image: treasurer,
-      email: { "Yeong Kai Wen": "kai_22005688@utp.edu.my" },
+      email: { "Kelvin Law Yun Hong": "kelvin_24006009@utp.edu.my" },
     },
     {
       id: 5,
       title: "Technical",
       image: technical,
       email: {
-        Ikhwan: "ikhwan_22011690@utp.edu.my",
-        Nurin: "nurin_22011828@utp.edu.my",
+        "Muhammad Akmal": "muhammad_24006013@utp.edu.my",
+        "Va liant Chen": "va_24006012@utp.edu.my",
       },
     },
     {
@@ -82,8 +83,8 @@ const OrgSlider = () => {
       title: "Event Management",
       image: event_management,
       email: {
-        "Yap Wei Ming": "yap_22011104@utp.edu.my",
-        Lewin: "lewin_24004552@utp.edu.my",
+        "Nicholas Ling Bing Zhi": "nicholas_24006107@utp.edu.my",
+        "Sobena Ramachanthirarao": "sobena_22010905@utp.edu.my",
       },
     },
     {
@@ -91,8 +92,8 @@ const OrgSlider = () => {
       title: "Med Pro",
       image: medpro,
       email: {
-        Albany: "mohammad_22009459@utp.edu.my",
-        Sara: "sara_24000574@utp.edu.my",
+        "Nurliyana Farhanah": "nurliyana_24006257@utp.edu.my",
+        "Muhammad Faris Najmi": "muhammad_22011981@utp.edu.my",
       },
     },
     {
@@ -100,12 +101,21 @@ const OrgSlider = () => {
       title: "Logistics",
       image: logistics,
       email: {
-        Sakinah: "an-_22011703@utp.edu.my",
-        Hemraaj: "hemraaj_22006512@utp.edu.my",
+        "Nor Fatin Zulaikha": "nor_22011385@utp.edu.my",
+        "Siti Nur Amalina": "siti_24006421@utp.edu.my",
       },
     },
     {
       id: 9,
+      title: "Public Relations",
+      image: public_relations,
+      email: {
+        "Exin Tok": "exin_24005904@utp.edu.my",
+        "Nur Zahidah Husna": "nur_24006180@utp.edu.my",
+      },
+    },
+    {
+      id: 10,
       title: "Advisor",
       image: advisor,
       email: {

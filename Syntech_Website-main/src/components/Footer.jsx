@@ -24,7 +24,7 @@ const Footer = () => {
             {/* LEFT: partners */}
             <div className="flex flex-col min-w-auto md:flex-4/5 bg-white p-4">
               <div className="font-Poppins font-semibold tracking-tight text-xl md:text-2xl mb-4">
-                <header>OUR PARTNERS</header>
+                <header>OUR PAST COLLABORATORS</header>
               </div>
 
               {/* Mobile layout (md and below) */}
