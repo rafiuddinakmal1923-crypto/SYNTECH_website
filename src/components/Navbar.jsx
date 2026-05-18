@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import MobileNavbar from "./MobileNavbar";
+import MobileNavbar from "./MobileNavBar";
 import DesktopNavbar from "./DesktopNavbar";
 
 const Navbar = ({ onScrollTo, activeSection }) => {
