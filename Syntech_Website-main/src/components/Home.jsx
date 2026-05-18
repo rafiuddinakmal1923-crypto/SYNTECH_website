@@ -4,7 +4,7 @@ import gsap from "gsap";
 import "../index.css";
 import linkedIn from "../assets/icons8-linkedin/icons8-linkedin.svg";
 import instagram from "../assets/icons8-instagram/icons8-instagram-48.svg";
-import syntech_vid from "../assets/syntech_vid.mp4";
+const syntech_vid = "https://res.cloudinary.com/dxgspijmf/video/upload/q_30/v1779072885/Syntech_Vid_xuztik.mp4";
 
 const Home = (props) => {
   let ref_id = props.propRef;
@@ -140,7 +140,7 @@ useEffect(() => {
                   autoPlay
                   muted
                   loop
-                  preload
+                  preload = "auto"
                   playsInline
                 />
               </div>
