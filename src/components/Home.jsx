@@ -4,7 +4,7 @@ import gsap from "gsap";
 import "../index.css";
 import linkedIn from "../assets/icons8-linkedin/icons8-linkedin.svg";
 import instagram from "../assets/icons8-instagram/icons8-instagram-48.svg";
-const syntech_vid = "https://res.cloudinary.com/dxgspijmf/video/upload/q_30/v1779072885/Syntech_Vid_xuztik.mp4";
+const syntech_vid = "https://res.cloudinary.com/dxgspijmf/video/upload/q_50/v1779072885/Syntech_Vid_xuztik.mp4";
 
 const Home = (props) => {
   let ref_id = props.propRef;
@@ -41,7 +41,40 @@ const Home = (props) => {
     window.open(url); // open in new tab
   };
 
-  const videoRef = useRef(null);
+const videoRef = useRef(null);
+const [userInteracted, setUserInteracted] = useState(false);
+
+// Detect first user interaction
+useEffect(() => {
+  const handleInteraction = () => setUserInteracted(true);
+  window.addEventListener("click", handleInteraction, { once: true });
+  window.addEventListener("scroll", handleInteraction, { once: true });
+  return () => {
+    window.removeEventListener("click", handleInteraction);
+    window.removeEventListener("scroll", handleInteraction);
+  };
+}, []);
+
+// Mute/unmute based on visibility + interaction
+useEffect(() => {
+  const video = videoRef.current;
+  if (!video) return;
+
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        video.play(); // ensure it plays
+        video.muted = !userInteracted; // unmute only if user has interacted
+      } else {
+        video.muted = true;
+      }
+    },
+    { threshold: 0.3 }
+  );
+
+  observer.observe(video);
+  return () => observer.disconnect();
+}, [userInteracted]); // re-run when interaction state changes
 
 useEffect(() => {
   const video = videoRef.current;
@@ -153,11 +186,11 @@ useEffect(() => {
                   ref={videoRef}
                   src={syntech_vid}
                   autoPlay
-                  muted        // start muted (browser requires this for autoplay)
+                  muted
                   loop
                   playsInline
-                  preload="metadata"
-                  // poster="/path/to/optional-poster.jpg"
+                  preload="auto"
+                  poster="https://res.cloudinary.com/dxgspijmf/video/upload/so_0/v1779072885/Syntech_Vid_xuztik.jpg"
                 />
               </div>
             </div>
